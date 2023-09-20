@@ -30,3 +30,8 @@ add_executable(TonyMusic
 	"Source/Music.cpp"
 )
 target_link_libraries(TonyMusic PRIVATE TonyCommon TonyWad TonyADPCM TonyPCM)
+
+add_executable(TonyData
+	"Source/Data.cpp"
+)
+target_link_libraries(TonyData PRIVATE TonyCommon TonyWad)
